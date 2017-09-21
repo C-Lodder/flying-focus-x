@@ -48,8 +48,8 @@
 			}
 
 			onEnd();
-			target.classList.add('flying-focus_target');
-			ringElem.classList.add('flying-focus_visible');
+			target.classList.add('flying-focus-target');
+			ringElem.classList.add('flying-focus-visible');
 			prevFocused = target;
 			movingId = setTimeout(onEnd, DURATION);
 		}, true);
@@ -78,8 +78,8 @@
 
 			clearTimeout(movingId);
 			movingId = 0;
-			ringElem.classList.remove('flying-focus_visible');
-			prevFocused.classList.remove('flying-focus_target');
+			ringElem.classList.remove('flying-focus-visible');
+			prevFocused.classList.remove('flying-focus-target');
 			prevFocused = null;
 		}
 

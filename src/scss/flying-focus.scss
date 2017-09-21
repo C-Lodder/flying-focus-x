@@ -9,7 +9,7 @@
   box-shadow: 0 0 2px 3px #78aeda, 0 0 2px #78aeda inset;
   border-radius: 2px;
 
-  &.flying-focus_visible {
+  &.flying-focus-visible {
     visibility: visible;
     z-index: 9999;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-.flying-focus_target {
+.flying-focus-target {
   outline: none !important;
   
   &::-moz-focus-inner {
