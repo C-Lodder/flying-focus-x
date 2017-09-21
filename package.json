@@ -1,13 +1,21 @@
 {
   "name": "flying-focus-x",
   "version": "0.9.0",
-  "description": "https://github.com/C-Lodder/flying-focus-x",
-  "main": "src/js/flying-focus.js",
-  "repository": "C-Lodder/flying-focus-x",
+  "description": "Adds an animated focus ring to elements on focus",
   "author": "Charlie Lodder",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/C-Lodder/flying-focus/issues"
+  "homepage": "https://github.com/C-Lodder/flying-focus-x",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C-Lodder/flying-focus-x.git"
   },
-  "homepage": "https://github.com/C-Lodder/flying-focus-x"
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-sass": "^2.0.0"
+  },
+  "license": "MIT"
 }
