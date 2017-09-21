@@ -1,0 +1,13 @@
+{
+  "name": "flying-focus-x",
+  "version": "0.9.0",
+  "description": "https://github.com/C-Lodder/flying-focus-x",
+  "main": "src/js/flying-focus.js",
+  "repository": "C-Lodder/flying-focus-x",
+  "author": "Charlie Lodder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/C-Lodder/flying-focus/issues"
+  },
+  "homepage": "https://github.com/C-Lodder/flying-focus-x"
+}
